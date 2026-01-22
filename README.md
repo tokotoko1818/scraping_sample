@@ -22,23 +22,27 @@ Indiegogoの検索結果から商品情報を自動収集する、GUIベース�
   - `Tkinter`: GUI実装
 - **Driver Management**: `webdriver-manager` により、Chromeドライバーの自動更新に対応
 
-## セットアップと実行方法
+## セットアップと実行方法 ##
 
 1. リポジトリをクローン
-   ```bash
+  ```bash
    git clone https://github.com/tokotoko1818/scraping_sample.git
    cd scraping_sample
+  ```
 
 2. 仮想環境の作成と有効化
-  # 仮想環境の作成
-  python -m venv venv
-
-  # 有効化 (Windowsの場合)
-  .\venv\Scripts\activate
+  ```bash
+   python -m venv venv
+   .\venv\Scripts\activate
+  ```
 
 3. 依存ライブラリのインストール
-  pip install -r requirements.txt
+  ```bash
+   pip install -r requirements.txt
+  ```
 
 4. 実行
-  python main.py
+  ```bash
+   python main.py
+  ```
 
