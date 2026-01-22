@@ -26,7 +26,7 @@ Indiegogoの検索結果から商品情報を自動収集する、GUIベース�
 
 1. リポジトリをクローン
    ```bash
-   git clone https://github.com/ksugihara1818/scraping_sample.git
+   git clone https://github.com/tokotoko1818/scraping_sample.git
    cd scraping_sample
 
 2. 仮想環境の作成と有効化
